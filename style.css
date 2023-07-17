@@ -62,3 +62,16 @@ ul li a {
   border: 2px solid var(--purple);
   border-radius: 4px;
 }
+
+#social-icon {
+  padding: 68px 0;
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+}
+
+#social-icon a {
+  display: flex;
+  padding: 14.5px;
+  justify-content: center;
+}
