@@ -5,7 +5,7 @@
 }
 
 :root {
-  --body-bg-color: #f0e8f7;
+  --body-bg-color: #faf7fd;
   --purple: #bb99dd;
   --color-text: #bb99dd;
 }
@@ -13,7 +13,6 @@
 body {
   background: var(--body-bg-color);
   color: var(--color-text);
-  height: 100vh;
   font-family: "Poppins", sans-serif;
 }
 
@@ -64,7 +63,6 @@ ul li a {
 }
 
 #social-icon {
-  padding: 68px 0;
   display: flex;
   justify-content: center;
   font-size: 24px;
