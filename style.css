@@ -20,7 +20,6 @@ body {
 #container {
   width: 100%;
   margin: 120px auto 0;
-  border: 1px solid red;
   max-width: 414px;
   padding: 0 44px;
 }
@@ -39,7 +38,7 @@ body {
 
 #profile p {
   padding-top: 15px;
-  font-weight: 500;
+  font-weight: 300;
   line-height: 24px;
 }
 
@@ -52,11 +51,12 @@ ul {
 }
 
 ul li a {
-  border: 1px solid red;
   display: flex;
   align-items: center;
   justify-content: center;
   text-decoration: none;
+  color: var(--color-text);
+  font-weight: 600;
   width: 326px;
   height: 49px;
   border: 2px solid var(--purple);
