@@ -26,10 +26,20 @@ body {
 
 #profile {
   text-align: center;
+  padding: 24px 24px 0;
 }
 
 #profile img{
   width: 213px;
+  border-image-outset: 22rem;
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px var(--purple);
+}
+
+#profile p{
+  padding-top: 15px;
+  font-weight: 500;
+  line-height: 24px;
 }
 
 ul {
