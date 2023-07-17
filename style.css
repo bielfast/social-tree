@@ -7,16 +7,20 @@
 :root {
   --body-bg-color: #f0e8f7;
   --purple: #bb99dd;
+  --color-text: #bb99dd;
 }
 
 body {
   background: var(--body-bg-color);
+  color: var(--color-text);
+  height: 100vh;
 }
 
 #container {
-  margin: 120px auto;
+  width: 100%;
+  margin: 120px auto 0;
   border: 1px solid red;
-  width: 414px;
+  max-width: 414px;
   padding: 0 44px;
 }
 
@@ -24,7 +28,11 @@ body {
   text-align: center;
 }
 
-ul{
+#profile img{
+  width: 213px;
+}
+
+ul {
   list-style: none;
   display: flex;
   flex-direction: column;
